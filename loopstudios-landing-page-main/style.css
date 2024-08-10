@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.firstpage{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header{
+  background-image: url(images/desktop/image-night-arcade.jpg);
+  height: 40vh;
+  color: white;
+
+}
+
+.h1{
+ width: 17rem;
+ padding: 0.5rem;
+ margin: 1rem;
+ border: 0.13rem solid black;
+ text-transform: capitalize;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin-right: 1rem;
+  margin-top: 0.8rem;
+  font-size: 0.7em;
+}
+
+nav ul{
+  display: flex;
+}
+
+.boy-eye{
+  width: 25rem;
+  position: relative;
+}
+
+.boy-para{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.parag{
+padding: 2rem;
+text-align: center;
+box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.159);
+text-transform: capitalize;
+width: 25rem;
+height: 17rem;
+font-size: 0.8em;
+z-index: 1;
+background-color: white;
+}
+
+.founded{
+  padding: 1rem;
+}
+.leader{
+  font-size: 2em;
+}
+
+.another{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem
+}
+.another p{
+  border: 0.8px solid black;
+  color: blue;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.another p:hover{
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.image{
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 1rem;
+}
+
+@media screen and (max-width:600px){
+  .boy-para{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav{
+    display: none;
+  }
+  .show{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+  }.social{
+    margin-left: 35%;
+  }
+    .foot{
+      display: flex;
+      flex-direction: column;
+    }
+  .icon-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .potter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:601px) {
+  .show{
+    display: none;
+  }
+
+.menu{
+  display: none;
+}
+}
+
+.menu li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 2em;
+  line-height: 5rem;
+}
+.menu h2{
+  font-size: 2rem;
+}
+.menu{
+  background-color: #333333f4;
+  z-index: 2;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -2.5rem;
+  display: none;
+}
+.meni{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1rem;
+}
+.close{
+  margin-right: 0.5rem;
+}
+
+
+footer{
+  background-color: #345;
+ padding: 1rem;
+  
+}
+
+.icon-div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.icon-div ul li{
+  list-style-type: none;
+  
+}
+
+.social {
+  display: flex;
+ 
+}
+.social li{
+  margin-right: 1rem;
+  
+}
+
+.loop{
+  font-size: 1.5em;
+  color: white;
+}
+
+.foot{
+  display: flex;
+}
+.foot li{
+  list-style-type: none;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+.potter{
+  display: flex;
+  justify-content: space-around;
+}
+.potter p{
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.attribution{
+  margin: 1.5rem;
+  text-align: center;
+}
